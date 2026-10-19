@@ -1,0 +1,256 @@
+{
+  "date": "2026-10-19",
+  "branch": "codex/budget-gb-coarsening-20261019",
+  "scope": "New budget-constrained granular-ball coarsening design and E0 smoke, supporting literature and theory; not a validated final algorithm",
+  "source_workspace": "C:\\Users\\Admin\\Desktop\\实验8去噪5.19-\\gb_c1_ratio_success_20260609\\results_ratio_c1_20260609",
+  "files": [
+    {
+      "path": "01_literature_and_research_map.md",
+      "bytes": 11572,
+      "sha256": "44d1acc8a1d2f1075f36c24b32a1700ef85287c9717ea1c60e024cdf37bb3733"
+    },
+    {
+      "path": "02_experiment_history_and_lessons.md",
+      "bytes": 8101,
+      "sha256": "ac19b4869d682a13868ceafdbae9423b95f0656f9eae60d26cfd79c6748e9822"
+    },
+    {
+      "path": "experiments/budget_gb_coarsening_20261019/e0_cost/run_e0.py",
+      "bytes": 15612,
+      "sha256": "c2caf1d1b1293632d0726c0375a52d836bcace4bdaed12c29507a8e652f067fa"
+    },
+    {
+      "path": "experiments/budget_gb_coarsening_20261019/e0_cost/smoke_log.txt",
+      "bytes": 11602,
+      "sha256": "6712896ac0f8fa7f567c1f876f2ba8d30a6b378863f71b9f9516a5ca6c1bc5db"
+    },
+    {
+      "path": "experiments/budget_gb_coarsening_20261019/e0_cost/SMOKE_NOTES.md",
+      "bytes": 2672,
+      "sha256": "bb5ca647827f423efd69235463e952b25cbeeeb37690d2d9b04264e26d9ce147"
+    },
+    {
+      "path": "experiments/budget_gb_coarsening_20261019/e0_cost/smoke_results.jsonl",
+      "bytes": 21881,
+      "sha256": "b57ebd2ee3f1e297d33cb9eb0294d762b3ef3c5e85c4d7013998111115bece7b"
+    },
+    {
+      "path": "experiments/budget_gb_coarsening_20261019/PLAN.md",
+      "bytes": 13331,
+      "sha256": "e61e11d3a8d4bc05da6f10a94381acfa8b90ded767c886ef498079e2eaea6198"
+    },
+    {
+      "path": "experiments/budget_gb_coarsening_20261019/requirements.txt",
+      "bytes": 182,
+      "sha256": "fc53b4ed58b5c916729cfd737291987bb5fd55e4175ff3197ebe98b2d1f98437"
+    },
+    {
+      "path": "experiments/budget_gb_coarsening_20261019/theory/check_inherited_loo.py",
+      "bytes": 1958,
+      "sha256": "dbfd5a5d3b1ff16b06a78f58dcb5e553f48daf39a8c0be16b4476d43b002258b"
+    },
+    {
+      "path": "experiments/budget_gb_coarsening_20261019/theory/check_loo_vs_gini.py",
+      "bytes": 1560,
+      "sha256": "a0d572ae47668ef30be779bdf38c593daedddaf4ffb99af71e1020105f313765"
+    },
+    {
+      "path": "GB-LCSS_GitHub/src/gblcss/__init__.py",
+      "bytes": 286,
+      "sha256": "1859cb137b76509f81187cafcf2e3b123c83285797bb6871971c6a287b7eb108"
+    },
+    {
+      "path": "GB-LCSS_GitHub/src/gblcss/data.py",
+      "bytes": 8616,
+      "sha256": "d283ba7a6ce14df1a64dd51750b7a2696cf34f7b5d59762a9753672027f136e1"
+    },
+    {
+      "path": "GB-LCSS_GitHub/src/gblcss/granular_ball.py",
+      "bytes": 4847,
+      "sha256": "ebae063004073222be232bb5bbbdfe6b0dd00efbae403cd1cb9df38b8c79f375"
+    },
+    {
+      "path": "GB-LCSS_GitHub/src/gblcss/targets.py",
+      "bytes": 3895,
+      "sha256": "ff95fc21afacd04e627a314f649cd8864c6ffafa5f76134123cca3216d0d9bb0"
+    },
+    {
+      "path": "NEW_ALGORITHM_README.md",
+      "bytes": 5351,
+      "sha256": "7469a153a61760f2f52bd24ad57e038133448a9b6770adb448a6147c58a01b3a"
+    },
+    {
+      "path": "research/literature_reassessment_20261019/00_READING_BRIEF.md",
+      "bytes": 6638,
+      "sha256": "21d569a5410dc30bd2efd4228b0c01a5cb85df66e0001d9c5b340fbfcc9690b8"
+    },
+    {
+      "path": "research/literature_reassessment_20261019/01_AGENT_TASKS.md",
+      "bytes": 7304,
+      "sha256": "ce87fded05bb9ea129b95d40ace0cb24f809b39880349842b07e2a5547f5c32e"
+    },
+    {
+      "path": "research/literature_reassessment_20261019/02_COORDINATOR_AUDIT.md",
+      "bytes": 10792,
+      "sha256": "39664dae4a04fc0636c1868adecf9fabe73c2fc5ff57753988ca5de611738e1d"
+    },
+    {
+      "path": "research/literature_reassessment_20261019/03_PAPER_INDEX.md",
+      "bytes": 13984,
+      "sha256": "ad90800a5d64cc1839292edb209508d875c558f250d8f797650656d48bac0858"
+    },
+    {
+      "path": "research/literature_reassessment_20261019/04_ALL_AGENT_REPORTS.md",
+      "bytes": 165622,
+      "sha256": "688d6d4aa8dd6c036ccaaf8bc28367bdac50fd454ebcf27ea696e6023634ed29"
+    },
+    {
+      "path": "research/literature_reassessment_20261019/05_DESIGN_REASSESSMENT.md",
+      "bytes": 21443,
+      "sha256": "ba903d8e6ff2bb32eb3ff0e38ec71a8eeed570929dad0cc2b6b6364854d1e26f"
+    },
+    {
+      "path": "research/literature_reassessment_20261019/06_THEORY_WORKING_NOTE.md",
+      "bytes": 4765,
+      "sha256": "e233e795bc219e764865aa8e2a29e7541a13ed251572467104d752b0e9c6ffee"
+    },
+    {
+      "path": "research/literature_reassessment_20261019/07_LOO_IMPURITY_REVIEW.md",
+      "bytes": 10334,
+      "sha256": "7f3bbcf031f68b388f2d564fd539e16da72f6cd504edd4c232c7ab533d626af2"
+    },
+    {
+      "path": "research/literature_reassessment_20261019/08_CLAUDE_E0_SMOKE_REVIEW.md",
+      "bytes": 12550,
+      "sha256": "263ab1e30dd1b9dfa7cd960a96a279098d0f40e77b34b161373b3bd7f0826525"
+    },
+    {
+      "path": "research/literature_reassessment_20261019/A_granular/CROSS_CHECK.md",
+      "bytes": 8558,
+      "sha256": "84e95b0c656e67780bf2c1c19dca395b1d07cfa036775adbf19fe2f97aba349c"
+    },
+    {
+      "path": "research/literature_reassessment_20261019/A_granular/papers.json",
+      "bytes": 22884,
+      "sha256": "b1aa4c47c6d919fc876f0c929e64985e38697d7a2914c7be85c5efdb0cde6d76"
+    },
+    {
+      "path": "research/literature_reassessment_20261019/A_granular/REPORT.md",
+      "bytes": 31020,
+      "sha256": "dfb680c4717d79695296c35b830fe06157a282459a9cab87d90cba140488c769"
+    },
+    {
+      "path": "research/literature_reassessment_20261019/A_granular/SEARCH_LOG.md",
+      "bytes": 5773,
+      "sha256": "8ac6cfadb8472d3263105b8ef779263b4c40b94179953b48ac81c2d23aa0ad48"
+    },
+    {
+      "path": "research/literature_reassessment_20261019/all_papers.json",
+      "bytes": 107637,
+      "sha256": "d8ccba6b4e9cf8b42fe7b766a8c34e7a147742c3cb18f1a3c8b4341029940898"
+    },
+    {
+      "path": "research/literature_reassessment_20261019/assemble_review.py",
+      "bytes": 5743,
+      "sha256": "40a313fe6c9290b0866ea776ea5a96546052462c0a02cc217d561d973aa1f781"
+    },
+    {
+      "path": "research/literature_reassessment_20261019/audit_reading_manifest.json",
+      "bytes": 310,
+      "sha256": "fd61fdaa76c226c7860414ebbe5fdd6a1915d306b80f1eaa4df4ca617ed4b062"
+    },
+    {
+      "path": "research/literature_reassessment_20261019/B_coarsening/papers.json",
+      "bytes": 18595,
+      "sha256": "311478081c59675b18ef99c6398e4926dc0eece1f47666646369caae8e2137b0"
+    },
+    {
+      "path": "research/literature_reassessment_20261019/B_coarsening/REPORT.md",
+      "bytes": 31198,
+      "sha256": "836e9c97eb5cd0a46599a1fb9ddf26e9c80817470610217e6d54beb8de43a608"
+    },
+    {
+      "path": "research/literature_reassessment_20261019/B_coarsening/SEARCH_LOG.md",
+      "bytes": 5343,
+      "sha256": "afd035dbc8f65d0f492742aed407e271e2557d99ab028c9e944ec902320d0ae3"
+    },
+    {
+      "path": "research/literature_reassessment_20261019/C_noisy_graph/papers.json",
+      "bytes": 19362,
+      "sha256": "90ab358d644adc473745c1933a025a0529b5a0f7aa154d01dd61d8dced4a7ee5"
+    },
+    {
+      "path": "research/literature_reassessment_20261019/C_noisy_graph/REPORT.md",
+      "bytes": 30028,
+      "sha256": "6dd128e7d6d2f61d7f4c10d2fa8392d2af3270757591cd25dad363dc8f284099"
+    },
+    {
+      "path": "research/literature_reassessment_20261019/C_noisy_graph/SEARCH_LOG.md",
+      "bytes": 7493,
+      "sha256": "ed189f95a23bc328b62615b1aa91285ba66e7644f44f4450f82ac2b61e075e0b"
+    },
+    {
+      "path": "research/literature_reassessment_20261019/D_heterophily/papers.json",
+      "bytes": 26032,
+      "sha256": "ec2e43ce67d7dd57d12f8754fd5306d2a238b9b51e3436605867d5319fe239cc"
+    },
+    {
+      "path": "research/literature_reassessment_20261019/D_heterophily/REPORT.md",
+      "bytes": 32745,
+      "sha256": "81ad4be64bec19f35ec363eff5767d034f829ea243a5b5e6a5f20819d785de80"
+    },
+    {
+      "path": "research/literature_reassessment_20261019/D_heterophily/SEARCH_LOG.md",
+      "bytes": 5935,
+      "sha256": "3ccb0264fa42c524ce0f102fa0b85436072a067b20362cc46e9b0a5165cc2dd5"
+    },
+    {
+      "path": "research/literature_reassessment_20261019/e0_smoke_independent_audit.json",
+      "bytes": 20253,
+      "sha256": "730adac37e6832115b95f97c1150d2a4b93181a6ae19a48c62be8cb688f9b6d6"
+    },
+    {
+      "path": "research/literature_reassessment_20261019/E_statistics/papers.json",
+      "bytes": 17899,
+      "sha256": "47d7427e60526957302b1dd8bc4afeb6a29ffd22549bbdc2a41c65ec162e460e"
+    },
+    {
+      "path": "research/literature_reassessment_20261019/E_statistics/REPORT.md",
+      "bytes": 30950,
+      "sha256": "6dea3db8b9d4ba1c0d9e7d057a0bfa309a484a108391eb1d59bc9ac448882555"
+    },
+    {
+      "path": "research/literature_reassessment_20261019/E_statistics/SEARCH_LOG.md",
+      "bytes": 5802,
+      "sha256": "dc8e8ef699f812404fa28b560c79561a2949ed5140c30a2f33fbd4bd627f8fb9"
+    },
+    {
+      "path": "research/literature_reassessment_20261019/loo_impurity_checks.json",
+      "bytes": 3106,
+      "sha256": "68c10db44c94792ffb81192f92e47c1c87ae2975d4aaa5437f24deec73488471"
+    },
+    {
+      "path": "research/literature_reassessment_20261019/math_sanity_checks.json",
+      "bytes": 5981,
+      "sha256": "0a1993cdfc04e853cdd6221f2f25c9e98620d4218dd569aec8716e68f6afc9ac"
+    },
+    {
+      "path": "research/literature_reassessment_20261019/validate_loo_impurity.py",
+      "bytes": 5130,
+      "sha256": "9e539bdea3ec8b4af63e84d2d5d9bf2937ce3432baae638db31a9da0ecd41007"
+    },
+    {
+      "path": "research/literature_reassessment_20261019/validate_math_notes.py",
+      "bytes": 4415,
+      "sha256": "34fda14194ec9c032280b8ca09b86a2fc8512ec01665c4423fbb475aec548f13"
+    }
+  ],
+  "excluded": [
+    "datasets",
+    "weights",
+    "PDF full texts",
+    "unrelated experiment directories",
+    "caches",
+    "local credentials"
+  ]
+}

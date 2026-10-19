@@ -1,0 +1,7 @@
+# 新算法研究快照：预算约束粒球图粗化
+
+分支：`codex/budget-gb-coarsening-20261019`。设计、36篇文献笔记、理论验证和E0单种子冒烟记录。
+
+[进入研究说明与复现入口](gb_c1_ratio_success_20260609/results_ratio_c1_20260609/NEW_ALGORITHM_README.md)
+
+状态：完整新方法尚未实现；E0的效率和抗噪结论尚未确认，已保留最新独立审查。

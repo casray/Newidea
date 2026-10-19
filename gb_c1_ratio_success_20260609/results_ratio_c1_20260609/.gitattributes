@@ -1,0 +1,8 @@
+# Preserve exact research snapshot bytes for SHA-256 provenance.
+/01_literature_and_research_map.md -text
+/02_experiment_history_and_lessons.md -text
+/NEW_ALGORITHM_README.md -text
+/SNAPSHOT_MANIFEST.json -text
+/research/literature_reassessment_20261019/** -text
+/experiments/budget_gb_coarsening_20261019/** -text
+/GB-LCSS_GitHub/src/gblcss/*.py -text
