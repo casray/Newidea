@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "jobs": 16,
+  "formal_training": false,
+  "purpose": "GPU connectivity and provenance only; no accuracy-based design selection",
+  "checks": [
+    "all arms and backbones",
+    "R0/R3/O2 noisy downstream labels match",
+    "original-node primary selection",
+    "separate lift predictions",
+    "exact M",
+    "source/config/noise/split integrity",
+    "prediction accuracy recomputed",
+    "cost fields and fixed-K consistency"
+  ]
+}
