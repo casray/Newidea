@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "audited_completed_jobs": 12,
+  "scope": "Partial formal result integrity; no stability or performance conclusion",
+  "checks": [
+    "config/source hash",
+    "prediction hashes",
+    "test accuracy recomputed",
+    "secondary accuracy recomputed where available",
+    "original-node primary validation every5 epochs",
+    "exact budgets",
+    "same paired split/noise/assignment",
+    "B/C targets consistent",
+    "cost/memory and K1 consistency"
+  ]
+}
