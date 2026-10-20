@@ -2,3 +2,5 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 *.partial
+# Full gzip retained locally; GitHub distributes verified parts.
+/gb_c1_ratio_success_20260609/results_ratio_c1_20260609/experiments/budget_gb_coarsening_20261019/analysis_20261020/results/raw_results.jsonl.gz
